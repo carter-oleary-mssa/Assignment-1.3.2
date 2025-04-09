@@ -35,3 +35,17 @@ for (int i = 0; i < noNewArray.Length; i++)
 {
     Console.WriteLine(noNewArray[i]);
 }
+
+Console.WriteLine("\n\n5. Using the sort function");
+int[] numArray = { 5, 7, 2, 8, 4 };
+Console.Write("Unsorted Array: ");
+for(int i = 0; i< numArray.Length; i++)
+{
+    Console.Write($"{numArray[i]} ");
+}
+Array.Sort(numArray);
+Console.Write("\nSorted Array: ");
+for(int i = 0;  i<numArray.Length; i++)
+{
+    Console.Write($"{numArray[i]} ");
+}
